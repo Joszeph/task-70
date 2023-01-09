@@ -8,3 +8,12 @@ window.addEventListener("DOMContentLoaded", () => {
     alert("💣");
   });
 });
+
+
+const imageDiv = document.querySelector('.image')
+
+imageDiv.addEventListener('click', getBigger)
+
+function getBigger(){
+  imageDiv.style.transform = 'scale(2)';
+}
